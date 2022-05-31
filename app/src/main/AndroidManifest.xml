@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.android.pythontutorial">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.PythonTutorial">
+        <activity
+            android:name=".Program30Activity"
+            android:parentActivityName=".ProgramsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Program29Activity"
+            android:parentActivityName=".ProgramsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Program28Activity"
+            android:parentActivityName=".ProgramsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Program27Activity"
+            android:exported="false"
+            android:parentActivityName=".ProgramsActivity" />
+        <activity
+            android:name=".Program25Activity"
+            android:exported="false"
+            android:parentActivityName=".ProgramsActivity" />
+        <activity
+            android:name=".Program26Activity"
+            android:exported="false"
+            android:parentActivityName=".ProgramsActivity" />
+        <activity
+            android:name=".Program24Activity"
+            android:exported="false"
+            android:parentActivityName=".ProgramsActivity" />
+        <activity
+            android:name=".Program23Activity"
+            android:exported="false"
+            android:parentActivityName=".ProgramsActivity" />
+        <activity
+            android:name=".Program22Activity"
+            android:exported="false"
+            android:parentActivityName=".ProgramsActivity" />
+        <activity
+            android:name=".Program21Activity"
+            android:exported="false"
+            android:parentActivityName=".ProgramsActivity" />
+        <activity
+            android:name=".EmailActivity"
+            android:exported="false"
+            android:parentActivityName=".ProjectActivity" />
+        <activity
+            android:name=".CompilerActivity"
+            android:exported="false"
+            android:parentActivityName=".DashboardActivity" />
+        <activity
+            android:name=".Program20Activity"
+            android:exported="false"
+            android:parentActivityName=".ProgramsActivity" />
+        <activity
+            android:name=".Program19Activity"
+            android:exported="false"
+            android:parentActivityName=".ProgramsActivity" />
+        <activity
+            android:name=".Program18Activity"
+            android:exported="false"
+            android:parentActivityName=".ProgramsActivity" />
+        <activity
+            android:name=".Program17Activity"
+            android:exported="false"
+            android:parentActivityName=".ProgramsActivity" />
+        <activity
+            android:name=".Program16Activity"
+            android:exported="false"
+            android:parentActivityName=".ProgramsActivity" />
+        <activity
+            android:name=".Program15Activity"
+            android:exported="false"
+            android:parentActivityName=".ProgramsActivity" />
+        <activity
+            android:name=".Program14Activity"
+            android:exported="false"
+            android:parentActivityName=".ProgramsActivity" />
+        <activity
+            android:name=".Program13Activity"
+            android:exported="false"
+            android:parentActivityName=".ProgramsActivity" />
+        <activity
+            android:name=".Program12Activity"
+            android:exported="false"
+            android:parentActivityName=".ProgramsActivity" />
+        <activity
+            android:name=".Program11Activity"
+            android:exported="false"
+            android:parentActivityName=".ProgramsActivity" />
+        <activity
+            android:name=".ProjectActivity"
+            android:exported="false"
+            android:parentActivityName=".DashboardActivity" />
+        <activity
+            android:name=".DigitalClockActivity"
+            android:exported="false"
+            android:parentActivityName=".ProjectActivity" />
+        <activity
+            android:name=".PingPongActivity"
+            android:exported="false"
+            android:parentActivityName=".ProjectActivity" />
+        <activity
+            android:name=".CalculatorActivity"
+            android:exported="false"
+            android:parentActivityName=".ProjectActivity" />
+        <activity
+            android:name=".PaintActivity"
+            android:exported="false"
+            android:parentActivityName=".ProjectActivity" />
+        <activity
+            android:name=".TextEditorActivity"
+            android:exported="false"
+            android:parentActivityName=".ProjectActivity" />
+        <activity
+            android:name=".Program10Activity"
+            android:exported="false"
+            android:parentActivityName=".ProgramsActivity" />
+        <activity
+            android:name=".Program9Activity"
+            android:exported="false"
+            android:parentActivityName=".ProgramsActivity" />
+        <activity
+            android:name=".Program8Activity"
+            android:exported="false"
+            android:parentActivityName=".ProgramsActivity" />
+        <activity
+            android:name=".Program7Activity"
+            android:exported="false"
+            android:parentActivityName=".ProgramsActivity" />
+        <activity
+            android:name=".Program6Activity"
+            android:exported="false"
+            android:parentActivityName=".ProgramsActivity" />
+        <activity
+            android:name=".Program5Activity"
+            android:exported="false"
+            android:parentActivityName=".ProgramsActivity" />
+        <activity
+            android:name=".Program4Activity"
+            android:exported="false"
+            android:parentActivityName=".ProgramsActivity" />
+        <activity
+            android:name=".Program3Activity"
+            android:exported="false"
+            android:parentActivityName=".ProgramsActivity" />
+        <activity
+            android:name=".Program2Activity"
+            android:exported="false"
+            android:parentActivityName=".ProgramsActivity" />
+        <activity
+            android:name=".Program1Activity"
+            android:exported="false"
+            android:parentActivityName=".ProgramsActivity" />
+        <activity
+            android:name=".AboutActivity"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name=".ProgramsActivity"
+            android:exported="false"
+            android:parentActivityName=".DashboardActivity" />
+        <activity
+            android:name=".DashboardActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
