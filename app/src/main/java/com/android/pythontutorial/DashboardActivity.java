@@ -8,10 +8,12 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Toast;
 
 public class DashboardActivity extends AppCompatActivity {
 
     CardView programsCardView,compilerCardView,projectsCardView,aboutCardView;
+    AlertDialog.Builder builder;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,7 +24,7 @@ public class DashboardActivity extends AppCompatActivity {
         compilerCardView = (CardView)findViewById(R.id.compilerCardView);
         projectsCardView = (CardView)findViewById(R.id.projectsCardView);
         aboutCardView = (CardView)findViewById(R.id.aboutCardView);
-
+        builder = new AlertDialog.Builder(this);
         programsCardView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -53,18 +55,25 @@ public class DashboardActivity extends AppCompatActivity {
         aboutCardView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(DashboardActivity.this,AboutActivity.class);
-                startActivity(intent);
+                builder.setMessage("Welcome to Python Tutorial Application! In this app you'll get python programs along with compiler,"+
+                        " you can copy and paste the program into the compiler and run the program. I also have many python gui projects\n\n"+
+                                "Thank You.")
+                        .setCancelable(false)
+                        .setNegativeButton("Cancel", new DialogInterface.OnClickListener() {
+                            public void onClick(DialogInterface dialog, int id) {
+                                dialog.cancel();
+                            }
+                        });
+                AlertDialog alert = builder.create();
+                alert.setTitle("About Application");
+                alert.show();
             }
         });
-
-
 
     }
 
     @Override
     public void onBackPressed() {
-
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
         builder.setTitle("Exit Application");
         builder.setMessage("Are you sure you want to exit ?");

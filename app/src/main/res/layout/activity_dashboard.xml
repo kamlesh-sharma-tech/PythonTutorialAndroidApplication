@@ -8,34 +8,29 @@
    <LinearLayout
        android:layout_width="match_parent"
        android:layout_height="match_parent"
-       android:background="#A8BDBB"
+       android:background="@color/white"
        android:orientation="vertical">
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Python Tutorial Application"
+           android:textSize="20sp"
+           android:textColor="@color/black"
+           android:layout_marginStart="10dp"
+           android:layout_marginTop="20dp"
+           android:layout_marginBottom="20dp"
+           android:fontFamily="@font/ubuntu_medium"/>
 
        <LinearLayout
            android:layout_width="match_parent"
            android:layout_height="250dp"
-           android:background="@drawable/python">
-
-       </LinearLayout>
-
-       <TextView
-           android:layout_width="match_parent"
-           android:layout_height="wrap_content"
-           android:background="#673AB7"
-           android:fontFamily="@font/ubuntu"
-           android:gravity="center"
-           android:padding="8sp"
-           android:text="Welcome to the Dashboard"
-           android:textColor="#CFCBD7"
-           android:textSize="20sp"
-           android:textStyle="bold">
-
-       </TextView>
+           android:background="@drawable/python"/>
 
        <GridLayout
            android:layout_width="match_parent"
            android:layout_height="match_parent"
-           android:rowCount="2z"
+           android:rowCount="2"
            android:columnCount="2"
            android:layout_marginBottom="10dp"
            android:alignmentMode="alignMargins"
@@ -64,15 +59,13 @@
                        android:layout_width="match_parent"
                        android:layout_height="90dp"
                        android:src="@drawable/programslogo"
-                       android:layout_marginTop="10dp">
-                   </ImageView>
+                       android:layout_marginTop="10dp"/>
 
                    <View
                        android:layout_width="match_parent"
                        android:layout_height="2dp"
                        android:layout_margin="15dp"
-                       android:background="@color/white">
-                   </View>
+                       android:background="@color/white"/>
 
                    <TextView
                        android:layout_width="wrap_content"
@@ -80,8 +73,7 @@
                        android:text="@string/program"
                        android:textSize="20sp"
                        android:textColor="@color/white"
-                       android:fontFamily="@font/ubuntu">
-                   </TextView>
+                       android:fontFamily="@font/ubuntu"/>
 
                </LinearLayout>
 
@@ -109,17 +101,13 @@
                        android:layout_width="match_parent"
                        android:layout_height="90dp"
                        android:src="@drawable/compilerlogo"
-                       android:layout_marginTop="10dp">
-
-                   </ImageView>
+                       android:layout_marginTop="10dp"/>
 
                    <View
                        android:layout_width="match_parent"
                        android:layout_height="2dp"
                        android:layout_margin="15dp"
-                       android:background="@color/white">
-
-                   </View>
+                       android:background="@color/white"/>
 
                    <TextView
                        android:layout_width="wrap_content"
@@ -127,9 +115,7 @@
                        android:text="@string/compiler"
                        android:textSize="20sp"
                        android:textColor="@color/white"
-                       android:fontFamily="@font/ubuntu">
-
-                   </TextView>
+                       android:fontFamily="@font/ubuntu"/>
 
                </LinearLayout>
 
@@ -157,16 +143,13 @@
                        android:layout_width="match_parent"
                        android:layout_height="90dp"
                        android:src="@drawable/projectlogo"
-                       android:layout_marginTop="10dp">
-
-                   </ImageView>
+                       android:layout_marginTop="10dp"/>
 
                    <View
                        android:layout_width="match_parent"
                        android:layout_height="2dp"
                        android:layout_margin="15dp"
-                       android:background="@color/white">
-                   </View>
+                       android:background="@color/white"/>
 
                    <TextView
                        android:layout_width="wrap_content"
@@ -174,8 +157,7 @@
                        android:text="@string/project"
                        android:textSize="20sp"
                        android:textColor="@color/white"
-                       android:fontFamily="@font/ubuntu">
-                   </TextView>
+                       android:fontFamily="@font/ubuntu"/>
 
                </LinearLayout>
 
@@ -203,17 +185,13 @@
                        android:layout_width="match_parent"
                        android:layout_height="90dp"
                        android:src="@drawable/aboutlogo"
-                       android:layout_marginTop="10dp">
-
-                   </ImageView>
+                       android:layout_marginTop="10dp"/>
 
                    <View
                        android:layout_width="match_parent"
                        android:layout_height="2dp"
                        android:layout_margin="15dp"
-                       android:background="@color/white">
-
-                   </View>
+                       android:background="@color/white"/>
 
                    <TextView
                        android:layout_width="wrap_content"
@@ -221,9 +199,7 @@
                        android:text="@string/about"
                        android:textSize="20sp"
                        android:textColor="@color/white"
-                       android:fontFamily="@font/ubuntu">
-
-                   </TextView>
+                       android:fontFamily="@font/ubuntu"/>
 
                </LinearLayout>
 

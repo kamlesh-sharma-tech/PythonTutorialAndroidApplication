@@ -4,7 +4,7 @@
     <string name="program">Programs</string>
     <string name="compiler">Compiler</string>
     <string name="project">GUI Projects</string>
-    <string name="about">About Me</string>
+    <string name="about">About</string>
 
     <string name="pte">Python Text Editor</string>
     <string name="ppa">Python Paint Application</string>
@@ -42,4 +42,5 @@
     <string name="p28">Program to count number of vowels using sets in given string</string>
     <string name="p29">Program that asks user for a number and print countdown from that number to zero</string>
     <string name="p30">Program to check whether a given character is alphabet, digit or special character</string>
+    <string name="help">Help</string>
 </resources>

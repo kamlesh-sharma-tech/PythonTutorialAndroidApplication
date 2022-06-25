@@ -21,8 +21,7 @@
             android:layout_marginRight="2dp"
             android:alignmentMode="alignMargins"
             android:layout_gravity="center_horizontal"
-            android:columnOrderPreserved="false"
-            >
+            android:columnOrderPreserved="false">
 
             <androidx.cardview.widget.CardView
                 android:id="@+id/p1"
@@ -34,8 +33,7 @@
                 android:layout_margin="5sp"
                 android:clickable="true"
                 android:focusable="true"
-                android:foreground="?android:selectableItemBackground"
-            >
+                android:foreground="?android:selectableItemBackground">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -50,10 +48,7 @@
                         android:textColor="#F6F4F4"
                         android:layout_margin="10sp"
                         android:maxLines="3"
-                        android:fontFamily="@font/ubuntu"
-                        >
-
-                    </TextView>
+                        android:fontFamily="@font/ubuntu" />
 
                 </LinearLayout>
 
@@ -69,8 +64,7 @@
                 android:layout_margin="5sp"
                 android:clickable="true"
                 android:focusable="true"
-                android:foreground="?android:selectableItemBackground"
-                >
+                android:foreground="?android:selectableItemBackground">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -85,8 +79,7 @@
                         android:maxLines="3"
                         android:textColor="#F6F4F4"
                         android:layout_margin="10sp"
-                        android:fontFamily="@font/ubuntu"
-                        ></TextView>
+                        android:fontFamily="@font/ubuntu"/>
 
                 </LinearLayout>
 
@@ -102,8 +95,7 @@
                 android:layout_margin="5sp"
                 android:clickable="true"
                 android:focusable="true"
-                android:foreground="?android:selectableItemBackground"
-                >
+                android:foreground="?android:selectableItemBackground">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -118,8 +110,7 @@
                         android:maxLines="3"
                         android:textColor="#F6F4F4"
                         android:fontFamily="@font/ubuntu"
-                        android:layout_margin="10sp"
-                        ></TextView>
+                        android:layout_margin="10sp"/>
 
                 </LinearLayout>
 
@@ -135,8 +126,7 @@
                 android:layout_margin="5sp"
                 android:clickable="true"
                 android:focusable="true"
-                android:foreground="?android:selectableItemBackground"
-                >
+                android:foreground="?android:selectableItemBackground">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -151,8 +141,7 @@
                         android:maxLines="3"
                         android:fontFamily="@font/ubuntu"
                         android:textColor="#F6F4F4"
-                        android:layout_margin="10sp"
-                        ></TextView>
+                        android:layout_margin="10sp"/>
 
                 </LinearLayout>
 
@@ -168,8 +157,7 @@
                 android:layout_margin="5sp"
                 android:clickable="true"
                 android:focusable="true"
-                android:foreground="?android:selectableItemBackground"
-                >
+                android:foreground="?android:selectableItemBackground">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -184,8 +172,7 @@
                         android:maxLines="3"
                         android:fontFamily="@font/ubuntu"
                         android:textColor="#F6F4F4"
-                        android:layout_margin="10sp"
-                        ></TextView>
+                        android:layout_margin="10sp"/>
 
                 </LinearLayout>
 
@@ -201,10 +188,7 @@
                 android:layout_margin="5sp"
                 android:clickable="true"
                 android:focusable="true"
-                android:foreground="?android:selectableItemBackground"
-                >
-
-
+                android:foreground="?android:selectableItemBackground">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -219,8 +203,7 @@
                         android:fontFamily="@font/ubuntu"
                         android:maxLines="3"
                         android:textColor="#F6F4F4"
-                        android:layout_margin="10sp"
-                        ></TextView>
+                        android:layout_margin="10sp"/>
 
                 </LinearLayout>
 
@@ -236,8 +219,7 @@
                 android:layout_margin="5sp"
                 android:clickable="true"
                 android:focusable="true"
-                android:foreground="?android:selectableItemBackground"
-                >
+                android:foreground="?android:selectableItemBackground">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -252,10 +234,7 @@
                         android:maxLines="3"
                         android:textColor="#F6F4F4"
                         android:fontFamily="@font/ubuntu"
-                        android:layout_margin="10sp"
-                        >
-
-                    </TextView>
+                        android:layout_margin="10sp"/>
 
                 </LinearLayout>
 
@@ -271,8 +250,7 @@
                 android:clickable="true"
                 android:focusable="true"
                 android:foreground="?android:selectableItemBackground"
-                android:layout_margin="5sp"
-                >
+                android:layout_margin="5sp">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -287,8 +265,7 @@
                         android:fontFamily="@font/ubuntu"
                         android:maxLines="3"
                         android:textColor="#F6F4F4"
-                        android:layout_margin="10sp"
-                        ></TextView>
+                        android:layout_margin="10sp"/>
 
                 </LinearLayout>
 
@@ -304,8 +281,7 @@
                 android:layout_margin="5sp"
                 android:clickable="true"
                 android:focusable="true"
-                android:foreground="?android:selectableItemBackground"
-                >
+                android:foreground="?android:selectableItemBackground">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -320,8 +296,7 @@
                         android:textColor="#F6F4F4"
                         android:fontFamily="@font/ubuntu"
                         android:maxLines="3"
-                        android:layout_margin="10sp"
-                        ></TextView>
+                        android:layout_margin="10sp"/>
 
                 </LinearLayout>
 
@@ -337,8 +312,7 @@
                 android:clickable="true"
                 android:focusable="true"
                 android:foreground="?android:selectableItemBackground"
-                android:layout_margin="5sp"
-                >
+                android:layout_margin="5sp">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -353,8 +327,7 @@
                         android:textColor="#F6F4F4"
                         android:layout_margin="10sp"
                         android:fontFamily="@font/ubuntu"
-                        android:maxLines="3"
-                        ></TextView>
+                        android:maxLines="3"/>
 
                 </LinearLayout>
 
@@ -370,8 +343,7 @@
                 android:layout_margin="5sp"
                 android:clickable="true"
                 android:focusable="true"
-                android:foreground="?android:selectableItemBackground"
-                >
+                android:foreground="?android:selectableItemBackground">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -385,8 +357,7 @@
                         android:textSize="18sp"
                         android:fontFamily="@font/ubuntu"
                         android:textColor="#F6F4F4"
-                        android:layout_margin="10sp"
-                        ></TextView>
+                        android:layout_margin="10sp"/>
 
                 </LinearLayout>
 
@@ -402,8 +373,7 @@
                 android:layout_margin="5sp"
                 android:clickable="true"
                 android:focusable="true"
-                android:foreground="?android:selectableItemBackground"
-                >
+                android:foreground="?android:selectableItemBackground">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -417,8 +387,7 @@
                         android:textSize="18sp"
                         android:fontFamily="@font/ubuntu"
                         android:textColor="#F6F4F4"
-                        android:layout_margin="10sp"
-                        ></TextView>
+                        android:layout_margin="10sp"/>
 
                 </LinearLayout>
 
@@ -434,8 +403,7 @@
                 android:layout_margin="5sp"
                 android:clickable="true"
                 android:focusable="true"
-                android:foreground="?android:selectableItemBackground"
-                >
+                android:foreground="?android:selectableItemBackground">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -450,8 +418,7 @@
                         android:textColor="#F6F4F4"
                         android:fontFamily="@font/ubuntu"
                         android:maxLines="3"
-                        android:layout_margin="10sp"
-                        ></TextView>
+                        android:layout_margin="10sp"/>
 
                 </LinearLayout>
 
@@ -467,8 +434,7 @@
                 android:layout_margin="5sp"
                 android:clickable="true"
                 android:focusable="true"
-                android:foreground="?android:selectableItemBackground"
-                >
+                android:foreground="?android:selectableItemBackground">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -483,8 +449,7 @@
                         android:maxLines="3"
                         android:textColor="#F6F4F4"
                         android:fontFamily="@font/ubuntu"
-                        android:layout_margin="10sp"
-                        ></TextView>
+                        android:layout_margin="10sp"/>
 
                 </LinearLayout>
 
@@ -500,8 +465,7 @@
                 android:clickable="true"
                 android:focusable="true"
                 android:foreground="?android:selectableItemBackground"
-                android:layout_margin="5sp"
-                >
+                android:layout_margin="5sp">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -515,8 +479,7 @@
                         android:textSize="18sp"
                         android:textColor="#F6F4F4"
                         android:fontFamily="@font/ubuntu"
-                        android:layout_margin="10sp"
-                        ></TextView>
+                        android:layout_margin="10sp"/>
 
                 </LinearLayout>
 
@@ -532,8 +495,7 @@
                 android:layout_margin="5sp"
                 android:clickable="true"
                 android:focusable="true"
-                android:foreground="?android:selectableItemBackground"
-                >
+                android:foreground="?android:selectableItemBackground">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -548,8 +510,7 @@
                         android:fontFamily="@font/ubuntu"
                         android:maxLines="3"
                         android:textColor="#F6F4F4"
-                        android:layout_margin="10sp"
-                        ></TextView>
+                        android:layout_margin="10sp"/>
 
                 </LinearLayout>
 
@@ -565,8 +526,7 @@
                 android:layout_margin="5sp"
                 android:clickable="true"
                 android:focusable="true"
-                android:foreground="?android:selectableItemBackground"
-                >
+                android:foreground="?android:selectableItemBackground">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -581,8 +541,7 @@
                         android:maxLines="3"
                         android:textColor="#F6F4F4"
                         android:layout_margin="10sp"
-                        android:fontFamily="@font/ubuntu"
-                        ></TextView>
+                        android:fontFamily="@font/ubuntu"/>
 
                 </LinearLayout>
 
@@ -598,8 +557,7 @@
                 android:layout_margin="5sp"
                 android:clickable="true"
                 android:focusable="true"
-                android:foreground="?android:selectableItemBackground"
-                >
+                android:foreground="?android:selectableItemBackground">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -614,8 +572,7 @@
                         android:maxLines="3"
                         android:fontFamily="@font/ubuntu"
                         android:textColor="#F6F4F4"
-                        android:layout_margin="10sp"
-                        ></TextView>
+                        android:layout_margin="10sp"/>
 
                 </LinearLayout>
 
@@ -631,8 +588,7 @@
                 android:layout_margin="5sp"
                 android:clickable="true"
                 android:focusable="true"
-                android:foreground="?android:selectableItemBackground"
-                >
+                android:foreground="?android:selectableItemBackground">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -647,8 +603,7 @@
                         android:textColor="#F6F4F4"
                         android:layout_margin="10sp"
                         android:fontFamily="@font/ubuntu"
-                        android:maxLines="3"
-                        ></TextView>
+                        android:maxLines="3"/>
 
                 </LinearLayout>
 
@@ -664,8 +619,7 @@
                 android:layout_margin="5sp"
                 android:clickable="true"
                 android:focusable="true"
-                android:foreground="?android:selectableItemBackground"
-                >
+                android:foreground="?android:selectableItemBackground">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -680,8 +634,7 @@
                         android:textColor="#F6F4F4"
                         android:fontFamily="@font/ubuntu"
                         android:layout_margin="10sp"
-                        android:maxLines="3"
-                        ></TextView>
+                        android:maxLines="3"/>
 
                 </LinearLayout>
 
@@ -698,8 +651,7 @@
                 android:layout_margin="5sp"
                 android:clickable="true"
                 android:focusable="true"
-                android:foreground="?android:selectableItemBackground"
-                >
+                android:foreground="?android:selectableItemBackground">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -714,8 +666,7 @@
                         android:textColor="#F6F4F4"
                         android:fontFamily="@font/ubuntu"
                         android:layout_margin="10sp"
-                        android:maxLines="3"
-                        ></TextView>
+                        android:maxLines="3"/>
 
                 </LinearLayout>
 
@@ -731,8 +682,7 @@
                 android:layout_margin="5sp"
                 android:clickable="true"
                 android:focusable="true"
-                android:foreground="?android:selectableItemBackground"
-                >
+                android:foreground="?android:selectableItemBackground">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -747,9 +697,7 @@
                         android:textColor="#F6F4F4"
                         android:fontFamily="@font/ubuntu"
                         android:layout_margin="10sp"
-                        android:maxLines="3"
-                        ></TextView>
-
+                        android:maxLines="3"/>
                 </LinearLayout>
 
             </androidx.cardview.widget.CardView>
@@ -764,8 +712,7 @@
                 android:layout_margin="5sp"
                 android:clickable="true"
                 android:focusable="true"
-                android:foreground="?android:selectableItemBackground"
-                >
+                android:foreground="?android:selectableItemBackground">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -780,8 +727,7 @@
                         android:textColor="#F6F4F4"
                         android:fontFamily="@font/ubuntu"
                         android:layout_margin="10sp"
-                        android:maxLines="3"
-                        ></TextView>
+                        android:maxLines="3"/>
 
                 </LinearLayout>
 
@@ -797,8 +743,7 @@
                 android:layout_margin="5sp"
                 android:clickable="true"
                 android:focusable="true"
-                android:foreground="?android:selectableItemBackground"
-                >
+                android:foreground="?android:selectableItemBackground">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -813,8 +758,7 @@
                         android:textColor="#F6F4F4"
                         android:fontFamily="@font/ubuntu"
                         android:layout_margin="10sp"
-                        android:maxLines="3"
-                        ></TextView>
+                        android:maxLines="3"/>
 
                 </LinearLayout>
 
@@ -830,8 +774,7 @@
                 android:layout_margin="5sp"
                 android:clickable="true"
                 android:focusable="true"
-                android:foreground="?android:selectableItemBackground"
-                >
+                android:foreground="?android:selectableItemBackground">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -846,8 +789,7 @@
                         android:textColor="#F6F4F4"
                         android:fontFamily="@font/ubuntu"
                         android:layout_margin="10sp"
-                        android:maxLines="3"
-                        ></TextView>
+                        android:maxLines="3"/>
 
                 </LinearLayout>
 
@@ -863,8 +805,7 @@
                 android:layout_margin="5sp"
                 android:clickable="true"
                 android:focusable="true"
-                android:foreground="?android:selectableItemBackground"
-                >
+                android:foreground="?android:selectableItemBackground">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -879,8 +820,7 @@
                         android:textColor="#F6F4F4"
                         android:fontFamily="@font/ubuntu"
                         android:layout_margin="10sp"
-                        android:maxLines="3"
-                        ></TextView>
+                        android:maxLines="3"/>
 
                 </LinearLayout>
 
@@ -896,8 +836,7 @@
                 android:layout_margin="5sp"
                 android:clickable="true"
                 android:focusable="true"
-                android:foreground="?android:selectableItemBackground"
-                >
+                android:foreground="?android:selectableItemBackground">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -912,8 +851,7 @@
                         android:textColor="#F6F4F4"
                         android:fontFamily="@font/ubuntu"
                         android:layout_margin="10sp"
-                        android:maxLines="3"
-                        ></TextView>
+                        android:maxLines="3"/>
 
                 </LinearLayout>
 
@@ -929,8 +867,7 @@
                 android:layout_margin="5sp"
                 android:clickable="true"
                 android:focusable="true"
-                android:foreground="?android:selectableItemBackground"
-                >
+                android:foreground="?android:selectableItemBackground">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -945,8 +882,7 @@
                         android:textColor="#F6F4F4"
                         android:fontFamily="@font/ubuntu"
                         android:layout_margin="10sp"
-                        android:maxLines="3"
-                        ></TextView>
+                        android:maxLines="3"/>
 
                 </LinearLayout>
 
@@ -962,8 +898,7 @@
                 android:layout_margin="5sp"
                 android:clickable="true"
                 android:focusable="true"
-                android:foreground="?android:selectableItemBackground"
-                >
+                android:foreground="?android:selectableItemBackground">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -978,8 +913,7 @@
                         android:textColor="#F6F4F4"
                         android:fontFamily="@font/ubuntu"
                         android:layout_margin="10sp"
-                        android:maxLines="3"
-                        ></TextView>
+                        android:maxLines="3"/>
 
                 </LinearLayout>
 
@@ -995,8 +929,7 @@
                 android:layout_margin="5sp"
                 android:clickable="true"
                 android:focusable="true"
-                android:foreground="?android:selectableItemBackground"
-                >
+                android:foreground="?android:selectableItemBackground">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -1011,13 +944,11 @@
                         android:textColor="#F6F4F4"
                         android:fontFamily="@font/ubuntu"
                         android:layout_margin="10sp"
-                        android:maxLines="3"
-                        ></TextView>
+                        android:maxLines="3"/>
 
                 </LinearLayout>
 
             </androidx.cardview.widget.CardView>
-
 
         </GridLayout>
 
